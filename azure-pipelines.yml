@@ -19,6 +19,6 @@ steps:
     resourceGroupName: 'lalauu'
     location: 'West Us'
     templateLocation: 'Linked artifact'
-    csmFile: '$(Build.SourcesDirectory)/tests/main.json'
-    csmParametersFile: '$(Build.SourcesDirectory)/tests/param.json'
+    csmFile: '$(Build.SourcesDirectory)/SQL/template.json'
+    csmParametersFile: '$(Build.SourcesDirectory)/parameters.json'
     deploymentMode: 'Incremental'
